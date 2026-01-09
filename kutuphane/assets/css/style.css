@@ -1,0 +1,372 @@
+/* ORTA ARKA PLAN */
+
+  
+.auth-bg {
+    min-height: 100vh;
+    background: #eef1f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* KARE FORM */
+  .auth-box {
+    width: 360px;
+    height: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 4px; /* kareye yakın */
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  /* BAŞLIK */
+  .auth-box h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* INPUTLAR */
+  .auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+  
+  /* BUTON */
+  .auth-box button {
+    width: 100%;
+    padding: 10px;
+    background: #4ca1af;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .auth-box button:hover {
+    background: #4ca1af;
+  }
+  
+  /* ALT LİNK */
+  .auth-box a {
+    display: block;
+    margin-top: 15px;
+    color: #2c3e50;
+    font-size: 14px;
+    text-decoration: none;
+
+  }
+  /* INDEX SAYFASI */
+.index-hero {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.index-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.index-hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.index-actions {
+  margin-top: 30px;
+}
+
+.index-actions a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  background: white;
+  color: #2c3e50;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.index-actions a:hover {
+  background: #f0f0f0;
+}
+
+/* ALT BİLGİ */
+.index-info {
+  padding: 40px 20px;
+  text-align: center;
+  background: #f5f7fa;
+}
+
+.index-info .card {
+  display: inline-block;
+  width: 260px;
+  margin: 15px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+/* KAYIT OL VURGUSU */
+.register-section {
+  background: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.register-section h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.register-section p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.register-section a {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.register-section a:hover {
+  background: #219150;
+}
+.password-info {
+  font-size: 12px;
+  color: #666;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+/* ======================
+   ADMIN PANEL
+====================== */
+
+.admin-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.admin-header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.admin-menu {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.admin-menu a {
+  text-decoration: none;
+  padding: 10px 15px;
+  background: #3498db;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.admin-menu a:hover {
+  background: #2980b9;
+}
+
+.admin-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.admin-table th {
+  background: #f5f6fa;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Başlık */
+.container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Kartlar */
+.card {
+  background-color: #fff8e1; /* açık sarı ton */
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #3498db; /* dikkat çekici kenar */
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Linkler */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+a:hover {
+  background-color: #3498db;
+}
+
+/* Mesaj kutusu */
+.message {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  text-align: center;
+}
+/* ======================
+   ÖDÜNÇ TALEPLERİ SAYFASI
+====================== */
+
+/* Admin Card container */
+.admin-card {
+  background-color: #fdfdfd;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  max-width: 1000px;
+}
+
+/* Card başlığı */
+.admin-card h3 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Tablolar */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #3498db; /* header ile uyumlu mavi ton */
+  color: #fff;
+  font-weight: 500;
+}
+
+.admin-table tr:nth-child(even) {
+  background-color: #f5f6fa; /* paneldeki açık gri ton */
+}
+
+.admin-table tr:hover {
+  background-color: #e1f0ff; /* hover efekti mavi ton */
+  transition: 0.3s;
+}
+
+/* İşlem linkleri */
+.admin-table a {
+  color: #fff;
+  background-color: #28a745; /* yeşil buton */
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.admin-table a:hover {
+  background-color: #218838;
+}
+
+/* Mesaj kutusu */
+.message {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #3498db; /* mavi panel uyumlu */
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Dönüş linki */
+.admin-card a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.admin-card a:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+
